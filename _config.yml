@@ -23,7 +23,7 @@ plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-t
 title:		           'Dương Dâu'
 description:	       'system security engineer'
 author:              'Dương Dâu'
-summary:              '"You'll never walk alone"'
+summary:              '"You will never walk alone"'
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 # feed:
