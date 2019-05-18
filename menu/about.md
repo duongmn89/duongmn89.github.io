@@ -11,4 +11,4 @@ tags: []
 
 ### Who am I?
 
-My name is Long (Tom); Software Engineer.
+My name is Dương Dâu; system security engineer.
