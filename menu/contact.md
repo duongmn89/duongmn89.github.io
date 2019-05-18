@@ -9,4 +9,4 @@ categories: []
 tags: []
 ---
 
-If you are having any problems, any questions or suggestions, feel free to [tweet at me](https://twitter.com/intent/tweet?text=%40ngvlongit1).
+If you are having any problems, any questions or suggestions, feel free to email me at duongmn89@gmail.com.
