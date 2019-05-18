@@ -67,7 +67,7 @@ docker run -d --net=host --name=ceph-mon \
 -v /var/lib/ceph:/var/lib/ceph \
 -e MON_IP=10.10.0.100 \
 -e CEPH_PUBLIC_NETWORK=10.10.0.0/24 \
-docker-registry:4000/ceph/daemon:latest mon
+ceph/daemon:latest-mimic mon
 ```
 Trong đó thay giá trị MON_IP bằng địa chỉ IP hiện tại của node chạy Ceph Monitor, CEPH_PUBLIC_NETWORK là địa chỉ network của node chạy Ceph Monitor
 
@@ -77,7 +77,7 @@ Tiếp theo chạy dịch vụ Ceph Mgr
 docker run -d --net=host --name=ceph-mgr \
 -v /etc/ceph:/etc/ceph \
 -v /var/lib/ceph:/var/lib/ceph \
-docker-registry:4000/ceph/daemon:latest mgr
+ceph/daemon:latest-mimic mgr
 ```
 
 Chuẩn bị phân vùng lại ổ cứng chạy Ceph OSD
@@ -86,7 +86,7 @@ Chuẩn bị phân vùng lại ổ cứng chạy Ceph OSD
 docker run -d --privileged=true --name=ceph-zap-sdb \
 -v /dev/:/dev/ \
 -e OSD_DEVICE=/dev/sdb \
-docker-registry:4000/ceph/daemon:latest zap_device
+ceph/daemon:latest-mimic zap_device
 ```
 
 Cuối cùng là chạy dịch vụ OSD trên ổ cứng vừa phân vùng
@@ -100,7 +100,7 @@ docker run -d --net=host --name=ceph-osd-sdb \
 -v /dev/:/dev/ \
 -e OSD_DEVICE=/dev/sdb \
 -e OSD_TYPE=disk \
-docker-registry:4000/ceph/daemon:latest osd
+ceph/daemon:latest-mimic osd
 ```
 
 Kiểm tra lại bằng lệnh ceph -s trong Ceph monitor nếu thấy health là HEALTH_OK và có 1 osd up & in là được
