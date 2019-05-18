@@ -120,7 +120,6 @@ root@ubuntu:~# docker exec -ti ceph-mon ceph -s
     objects: 0  objects, 0 B
     usage:   2.0 GiB used, 277 GiB / 279 GiB avail
     pgs:     
-
 ```
 
 ## Cấu hình ceph dashboard
@@ -145,6 +144,5 @@ Trong trường hợp cần xóa cluster thì thực hiện các lệnh sau
 docker rm -f -v ceph-mon ceph-mgr ceph-osd-sdb ceph-zap-sdb
 rm -rf /etc/ceph
 rm -rf /var/lib/ceph
-
 ```
 
