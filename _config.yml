@@ -20,10 +20,10 @@ permalink:           none
 plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-title:		           'Long Tom'
-description:	       'Software Engineer'
-author:              'Long and Colleague'
-summary:              '"If you want to go fast, go alone. If you want to go far, go together"'
+title:		           'Dương Dâu'
+description:	       'system security engineer'
+author:              'Dương Dâu'
+summary:              '"You'll never walk alone"'
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 # feed:
