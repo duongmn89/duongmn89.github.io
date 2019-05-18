@@ -139,3 +139,12 @@ Truy cập địa chỉ <https://10.10.0.100:8080> đăng nhập bằng tài kho
 
 ![Dashboard]( {{site.url}}/assets/img/2019/05/18/ceph_dashboard_02.PNG)
 
+## Xóa cluster
+Trong trường hợp cần xóa cluster thì thực hiện các lệnh sau
+```bash
+docker rm -f -v ceph-mon ceph-mgr ceph-osd-sdb ceph-zap-sdb
+rm -rf /etc/ceph
+rm -rf /var/lib/ceph
+
+```
+
