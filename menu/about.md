@@ -11,4 +11,4 @@ tags: []
 
 ### Who am I?
 
-My name is Dương Dâu; system security engineer.
+My name is Dương Dâu; system security engineer, runner, liverpudlian.
