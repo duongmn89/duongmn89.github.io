@@ -19,6 +19,7 @@ excerpt: "Cách sửa lỗi đồng hồ garmin 935/fenix kết nối GPS chậm
 ## Hiện tượng
 Chiếc đồng hồ garmin của bạn bỗng nhiên kết nối GPS rất chậm từ 1-2 phút thậm chí 5-6 phút thay vì 5-10s mặc dù đang đứng ở chỗ thoáng ??? 
 Hiện tượng trên hay sảy ra nhất là sau 1 thời gian không thực hiện activity, không đồng bộ garmin với điện thoại, máy tính 
+
 ![garminslowgps]( {{site.url}}/assets/img/2019/05/24/run.png)
 
 ## Nguyên nhân và cách kiểm tra
@@ -34,6 +35,7 @@ Cách kiểm tra: Trên đồng hồ vào mục Settings - About - cuộn xuốn
 File EPO này sẽ được update khi kết nối đồng hồ với phần mềm Garmin Express trên máy tính hoặc kết nối đồng hồ qua wifi.
 Lưu ý: Việc kết nối đồng hồ garmin với điện thoại dùng phần mềm Garmin Connect sẽ KHÔNG update được file EPO đã expired, do đó chỉ thực hiện được bằng 1 trong 2 cách trên.
 Sau khi update kiểm tra lại thì trạng thái EPO phải là current:
+
 ![garminepocurrent]( {{site.url}}/assets/img/2019/05/24/current.png)
 
 Sau khi trạng thái EPO là current rồi thì việc bắt GPS sẽ nhanh trở lại.
